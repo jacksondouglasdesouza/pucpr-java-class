@@ -1,6 +1,4 @@
-package Aula002;
-
-import java.sql.SQLOutput;
+package Aulas.Aula002;
 
 public class Aula002 {
 

@@ -1,4 +1,4 @@
-package Aula002;
+package Aulas.Aula002;
 import java.util.Objects;
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package Aula001;
+package Aulas.Aula002.Aula001;
 
 public class Aula001_i {
     // Aula IF / ELIF / ELSE
