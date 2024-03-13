@@ -37,6 +37,8 @@ public class Aula0010 {
             System.out.println(x + " - " + y);
         }
 
+        // Casa Braca
+
 
         sc.close();
 
@@ -44,4 +46,5 @@ public class Aula0010 {
     }
 
     //-- END CLASSE
+
 }
