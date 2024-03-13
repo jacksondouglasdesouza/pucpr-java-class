@@ -1,4 +1,4 @@
-package PucprFpoo;
+package PucprFpoo.Aula02;
 
 import java.util.Scanner;
 import java.util.Random;

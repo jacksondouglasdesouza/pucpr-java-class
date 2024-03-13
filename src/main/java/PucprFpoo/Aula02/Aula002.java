@@ -1,4 +1,4 @@
-package PucprFpoo;
+package PucprFpoo.Aula02;
 
 public class Aula002 {
     public static void main(String[] args) {

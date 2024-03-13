@@ -1,4 +1,4 @@
-package PucprFpoo;
+package PucprFpoo.Aula02;
 
 /*
 * Crie um algoritmo em Java que calcule a distância de Levenshtein entre duas Strings.

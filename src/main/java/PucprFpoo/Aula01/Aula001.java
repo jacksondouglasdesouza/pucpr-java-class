@@ -1,4 +1,4 @@
-package PucprFpoo;
+package PucprFpoo.Aula01;
 
 import java.util.Scanner;
 
