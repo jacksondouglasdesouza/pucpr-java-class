@@ -1,7 +1,7 @@
 package JavaCompletoProgramacaoOrientadaObjetos;
 import java.util.Scanner;
 
-public class class001_1 {
+public class class001_01 {
 
 	public static void main(String[] args) {
 		// ENTRADA DE DADOS EM JAVA SCANNER
