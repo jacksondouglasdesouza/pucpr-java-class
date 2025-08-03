@@ -1,7 +1,8 @@
-import java.util.Objects;
+package aulaspucpr;
+
 import java.util.Scanner;
 
-public class Main {
+public class aulaSemana01_Projeto_vendaIngressos {
 
     /*
     static float calcular_preco(String tipo){
