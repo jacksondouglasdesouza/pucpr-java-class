@@ -1,4 +1,4 @@
-package cursojavacomplementarcompleto;
+package cursojavacomplementarcompleto.exercicios;
 import java.util.Locale;
 
 public class exercicioFormulaBhaskara {

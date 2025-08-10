@@ -1,4 +1,4 @@
-package cursojavacomplementarcompleto;
+package cursojavacomplementarcompleto.aulas;
 
 import java.util.Scanner;
 import java.util.Locale;
@@ -35,6 +35,8 @@ public class estruturaCondicionalIfElse {
         } else {
             System.out.println("Valor inválido! Digite um horário entre 0 e 24.");
         }
+
+        scan.close();
 
     }
 

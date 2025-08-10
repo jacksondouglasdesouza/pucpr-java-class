@@ -1,4 +1,4 @@
-package cursojavacomplementarcompleto;
+package cursojavacomplementarcompleto.exercicios;
 import java.util.Scanner;
 import java.util.Locale;
 
