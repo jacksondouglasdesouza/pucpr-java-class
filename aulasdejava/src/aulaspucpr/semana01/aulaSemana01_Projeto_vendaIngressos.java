@@ -1,4 +1,4 @@
-package aulaspucpr;
+package aulaspucpr.semana01;
 
 import java.util.Scanner;
 
