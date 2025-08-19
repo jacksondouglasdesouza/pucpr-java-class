@@ -1,4 +1,4 @@
-package cursojavacomplementarcompleto.aulas;
+package cursojavacomplementarcompleto.aulas.aulasBasicas;
 import java.util.Locale;
 
 public class expressoesComparativas {
