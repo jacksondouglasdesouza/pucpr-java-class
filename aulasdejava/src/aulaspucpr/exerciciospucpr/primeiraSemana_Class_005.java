@@ -1,4 +1,4 @@
-package exerciciospucpr;
+package aulaspucpr.exerciciospucpr;
 import java.util.Scanner;
 
 public class primeiraSemana_Class_005 {

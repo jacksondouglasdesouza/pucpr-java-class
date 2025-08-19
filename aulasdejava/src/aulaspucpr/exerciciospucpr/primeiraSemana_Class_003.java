@@ -1,4 +1,4 @@
-package exerciciospucpr;
+package aulaspucpr.exerciciospucpr;
 
 public class primeiraSemana_Class_003 {
 
