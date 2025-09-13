@@ -71,5 +71,4 @@ public class Produto {
                 + String.format("Total em estoque R$%.2f", TotalNoEstoque());
     }
 
-
 }
