@@ -13,10 +13,17 @@ public class Produto {
     // ATRIBUTOS //
 
     private String nome;
+    String sobrenomeProduto; // Atributo com acesso default (pacote) para teste
     private double preco;
     private int quantidade;
 
+
     // CONSTRUTOR //
+
+    // Construtor Padrão (sem argumentos) //
+    public Produto() {
+
+    }
 
     /**
      * Construtor da classe Produto.
@@ -30,6 +37,79 @@ public class Produto {
         this.quantidade = quantidade;
 
     }
+
+    // Sobrecarga do Construtor (sem quantidade inicial) //
+    public Produto(String nome, double preco) {
+        this.nome = nome;
+        this.preco = preco;
+        this.quantidade = 0; // Quantidade inicial padrão é 0
+    }
+
+    // GETTERS E SETTERS // <<< Por Padrão são colocados sempre após os construtores >>>
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void  setNome(String nome){
+        this.nome = nome;
+    }
+
+    public double getPreco() {
+        return preco;
+    }
+
+    public void setPreco(double preco){
+        this.preco = preco;
+    }
+
+    public int getQuantidade() {
+        return quantidade;
+    }
+
+    // Não colocamos o Setter para quantidade, pois a quantidade
+    // só pode ser alterada através dos métodos de adicionar e remover produtos no estoque.
+
+    /*
+    // CONSTRUTORES GETTES E SETTERS ADICIONADOS ALTOMATICAMENTE PELO IDE //
+    public Produto() {
+    }
+    public Produto(String nome, double preco, int quantidade) {
+        this.nome = nome;
+        this.preco = preco;
+        this.quantidade = quantidade;
+    }
+
+    public Produto(String nome, double preco) {
+        this.nome = nome;
+        this.preco = preco;
+        this.quantidade = 0;
+    }
+
+    // GETTERS E SETTERS //
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public double getPreco() {
+        return preco;
+    }
+
+    public void setPreco(double preco) {
+        this.preco = preco;
+    }
+
+    public int getQuantidade() {
+        return quantidade;
+    }
+
+     */
+
 
     // MÉTODOS DA CLASSE //
 

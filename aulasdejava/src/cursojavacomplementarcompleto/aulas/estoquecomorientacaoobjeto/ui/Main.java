@@ -10,6 +10,8 @@ public class Main {
         Locale.setDefault(Locale.US);
         Scanner scan = new Scanner(System.in);
 
+        /*
+
         // NOVO PRODUTO - ID 0001 //
 
         System.out.println("Digite o nome do produto: ");
@@ -89,8 +91,52 @@ public class Main {
         System.out.println("ID 001: " + produtoId0001 + "\n####################################");
         System.out.println("\nID 002: " + produtoId0002 + "\n####################################");
 
+         */
+
+        // NOVO PRODUTO - ID 0003 (SEM QUANTIDADE INICIAL) //
+
+        System.out.println("\n--- Cadastro do Produto 3 (SEM QUANTIDADE INICIAL) ---");
+        System.out.println("Digite o nome do produto: ");
+        String nomeId0003 = scan.nextLine();
+        System.out.println("Digite o preço do produto: ");
+        double precoId0003 = scan.nextDouble();
+
+        Produto produtoId0003 = new Produto(nomeId0003, precoId0003);
+
+        System.out.println("\n");
+        System.out.println("VAMOS ADICIONAR MAIS PRODUTOS AO ESTOQUE?");
+        System.out.println("Digite a quantidade do produto para adicionar ao estoque: ");
+        int adicionarId003 = scan.nextInt();
+
+        produtoId0003.AdicionarProdutosNoEstoque(adicionarId003);
+
+        System.out.println("\n");
+        System.out.println("----- POSIÇÃO ATUAL NO ESTOQUE -----\n");
+        System.out.println("ID 003: " + produtoId0003 + "\n####################################");
+
+        System.out.println("\n");
+        System.out.println("VAMOS RETIRAR PRODUTOS DO ESTOQUE?");
+        System.out.println("Digite a quantidade para retirar do estoque: ");
+        int retirarId003 = scan.nextInt();
+
+        produtoId0003.RemoverProdutosDoEstoque(retirarId003);
+
+        System.out.println("\n");
+        System.out.println("----- POSIÇÃO ATUAL NO ESTOQUE -----\n");
+        System.out.println("ID 003: " + produtoId0003 + "\n####################################");
+
+        Produto produtoVazio = new Produto(); // Chamando o Construtor Padrão (sem argumentos)
+
+        // produtoId0003.nome = "TV 4K";  <<--- Não é possível acessar diretamente o atributo, pois ele é privado.
+
+        produtoId0003.setNome("TV 4K"); // Usando o Setter para alterar o nome do produto
+        System.out.println("Nome atualizado do produto ID 003: " + produtoId0003.getNome()); // Usando o Getter para acessar o nome do produto
+        produtoId0003.setPreco(3500.00); // Usando o Setter para alterar o preço do produto
+        System.out.println("Preço atualizado do produto ID 003: " + produtoId0003.getPreco()); // Usando o Getter para acessar o preço do produto
+        System.out.println("\n");
+
 
         scan.close();
-
     }
 }
+
